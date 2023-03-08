@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .padre{
+            margin: auto;
+            height: 250px;
+            width: 250px;
+            position: relative;
+            background-image:url("./pexels-vidal-balielo-jr-1250655.jpg");
+            background-size: cover;
+            background-position: -64px;
+        }
+        .hijo1{
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            border-width: 2px 1px 1px 2px;
+            border-style: solid;
+            border-color: black;
+        }
+        .hijo2{
+            height: 50%;
+            width: 50%;
+            right: 0;
+            position: absolute;
+            border-width: 2px 2px 1px 1px;
+            border-style: solid;
+            border-color: black;
+        }
+        .hijo3{
+            height: 50%;
+            width: 50%;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            border-width: 1px 1px 2px 2px;
+            border-style: solid;
+            border-color: black;
+        }
+        .hijo4{
+            height: 50%;
+            width: 50%;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            border-width: 1px 2px 2px 1px;
+            border-style: solid;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo1"></div>
+        <div class="hijo2"></div>
+        <div class="hijo3"></div>
+        <div class="hijo4"></div>
+    </div>
+</body>
+</html>
